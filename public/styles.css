@@ -1,0 +1,64 @@
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+
+.img1{
+    background-image: url("img1.jpg");
+    width: 1900px;
+    height: 860px;
+}
+.img2{
+    background-image: url("img2.jpg");
+    width: 1900px;
+    height: 830px;
+
+}
+.img3{
+    background-image: url("img3.jpg");
+    width: 1900px;
+    height: 800px;
+}
+
+.img4{
+    background-image: url("img4.jpg");
+    width: 1900px;
+    height: 855px;
+}
+
+
+
+.banniere2{
+    position:relative;
+    top:103px;
+    left:1142px;
+    border: 0px;
+}
+
+.banniere3{
+    position:relative;
+    top:103px;
+    left:1142px;
+    border: 0px;
+}
+
+
+@media screen and (max-width: 424px) {
+    .banniere1{
+        position: fixed;
+        left: 44%;
+        top:29%
+    }
+   }
+
+@media screen and (min-width: 424px) {
+    .banniere1{
+        position:relative;
+        top:135px;
+        left:1142px;
+        border: 0px;
+    }
+   }
+
+   
