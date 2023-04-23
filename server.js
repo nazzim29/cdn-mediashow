@@ -41,6 +41,6 @@ app.get("/devhtml", (req, res) => {
     res.sendFile(__dirname + "/index.html"); //send the html file from the current directory of the app module as the response body
 })
 
-app.listen(3000, () => {
+app.listen(80, () => {
 	console.log("Server is listening on port 3000");
 });
