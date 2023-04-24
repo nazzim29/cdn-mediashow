@@ -22,8 +22,8 @@ app.get("/", async (req, res) => {
         console.log(scenario)
 			const dynamicContent = await ejs.renderFile("template.js", {
 				/* data */
-                staticIndexUrl: "/static/index.js",
-                scenario
+				staticIndexUrl: process.env.BASE_URL + "/static/index.js",
+				scenario,
 			});
 			res.setHeader("Content-Type", "text/javascript");
 			res.send(dynamicContent);
